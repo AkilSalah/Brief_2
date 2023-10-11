@@ -1,0 +1,268 @@
+
+
+.navbar  {
+    background-image: url(imges/image\ 1.png);
+    background-size: cover; /* L'image couvrira complètement le conteneur */
+    background-position: center center; /* Centre l'image horizontalement et verticalement */
+    height: 100vh; /* Hauteur équivalente à 100% de la hauteur de la fenêtre */
+    width: 100%;
+    
+}
+.about {
+    background-image: url(imges/image2.png);
+    background-size: cover; /* L'image couvrira complètement le conteneur *//* Facultatif : permet de garder l'image fixe lors du défilement */
+    background-position: center center; /* Centre l'image horizontalement et verticalement */
+    height: 70vh; /* Hauteur équivalente à 100% de la hauteur de la fenêtre */
+    width: 100%;
+
+}
+.time {
+    background-image: url(imges/image4.png);
+    background-size: cover; /* L'image couvrira complètement le conteneur */
+    background-position: center center; /* Centre l'image horizontalement et verticalement */
+    height: 28rem; /* Hauteur équivalente à 100% de la hauteur de la fenêtre */
+    width: 100%;
+
+}
+
+.navbar-menu  {
+    background-image: url(imges/coffee-beans-dark-background.jpg);
+    background-size: cover; /* L'image couvrira complètement le conteneur */
+    background-attachment: fixed; /* Facultatif : permet de garder l'image fixe lors du défilement */
+    background-position: center center; /* Centre l'image horizontalement et verticalement */
+    height: 150vh; /* Hauteur équivalente à 100% de la hauteur de la fenêtre */
+    width: 100%;
+    
+}
+.client{
+    background-image: url(imges/sousmenu.png);
+    background-size: cover; /* L'image couvrira complètement le conteneur */
+    background-attachment: fixed; /* Facultatif : permet de garder l'image fixe lors du défilement */
+    background-position: center center; /* Centre l'image horizontalement et verticalement */
+    height: 100vh; /* Hauteur équivalente à 100% de la hauteur de la fenêtre */
+    width: 100%;
+
+}
+/* Styles de base pour la navbar horizontale */
+.nav{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20rem;
+    top: -9px;
+    
+    
+}
+
+/* Style pour le texte "Landing" */
+.nav img{
+    position: relative;
+    margin: 0;
+    left: 5rem;
+    width: 100px;
+    padding-top: 10PX;
+    
+}
+
+/* Style pour la liste non ordonnée (ul) */
+ .nav ul {
+    position: relative;
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    left: 290px;
+  
+    
+   
+}
+
+/* Style pour les éléments de liste (li) */
+.nav li {
+    margin: 0 25px ;
+    
+}
+
+/* Style pour les liens (a) dans la navbar */
+.nav a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    
+}
+
+/* Style pour les liens au survol de la souris */
+
+.navbar  a:hover {
+    color: #b35f00;
+}
+.navbar-menu  a:hover {
+    color: #b35f00;
+}
+.script h1 {
+  padding-top: 10%;  
+padding-left: 90PX;
+font-size: 2rem;
+color: #ffffff;
+
+}
+.script P{
+padding-left: 90PX;
+color: #ffffff;
+
+
+}
+.about h1{
+   padding-left: 60%;
+   padding-top: 10%;
+    color: #c77527;
+    
+}
+.about p{
+    padding-left: 62%;
+    color: #61330e;
+    
+
+}
+.about button{
+    margin-left: 78%;
+    margin-top: 5PX;
+    background-color: #c77527;
+    color: beige;
+    border-radius: 4px white;
+}
+.time h1{
+        padding-left: 20%;
+        padding-top: 170px;
+        color: white;
+        font-size: 210%;
+        font-family: 'Irish Grover';
+}
+.time .l1{
+        position: absolute;
+        left: 50%;
+        top: 195%;
+        color: white;
+        font-size: 150%;
+        font-family: 'Irish Grover';
+        
+}
+.time .l2{
+    position: absolute;
+        left: 70%;
+        top: 195%;
+    color: white;
+    font-size: 150%;
+    font-family: 'Irish Grover';
+}
+footer {
+    margin-top: -5%;
+    height: 50px;
+    background-color: #61330e;
+    
+}
+footer p{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.our-menu{
+ font-size: 90%;   
+font-family: 'Poppins', sans-serif;
+border: 1px solid #B77E66;
+width: 200px;
+text-align: center;
+background-color: #B77E66;
+border-radius: 20px;
+margin-left: 43%;
+margin-top: 5%;
+}
+
+
+.grid-container {
+    position: absolute;
+    left: 10%;
+    top: 40%;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Trois colonnes égales */
+    grid-template-rows: 1fr 1fr; /* Deux lignes égales */
+    /* grid-gap: ; Marge entre les éléments de la grille */
+}
+
+.grid-item {
+    width: 220px;
+    height: 200px;
+    background-color: #a1bfd2; /* Couleur de fond */
+    color: #000000; /* Couleur du texte */
+    text-align: center; /* Centrage du texte */
+}
+.grid-item img{
+    width: 220px;
+    height: 200px;
+    
+}
+.grid-item .description .price{
+    position: relative;
+    top: -3%;
+    left: 35%;
+    font-weight: bold;
+}
+.description .name{
+    position: relative;
+    left: -30%;
+
+}
+.grid-item .description .dsc{
+  font-size: 12px; 
+  padding-left: 13px;
+  text-align: left; 
+  color: #000000; 
+ 
+}
+.grid-item .description button{
+    width: 70PX;
+    height: 30px;
+    font-size: 5PX;
+    border-radius: 20px;
+    background-color: #c77527;
+    margin-left:-130px   ;
+    
+    
+}
+.grid-item .description  button:hover {
+    background-color: aqua;
+}
+
+/* ----------------------------- */
+.client h1{
+    color: #ffffff;
+    text-align: center;
+    padding-top: 10%;
+}
+.cli1{
+background-color: #61330e ;
+opacity: 0.7;
+width: 25%;
+height: 40%;
+margin-left: 12%;
+margin-top: 10%;
+border-radius: 30px;
+}
+.cli1 h2{
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 100PX;
+    padding-top: 10px;
+}
+.cli1 p{
+    padding-left: 20%;
+    color: #ffffff;
+    font-size: 100%;
+}
+
+.cli1 .green{
+    color: green;
+    padding-top: 20PX;
+    padding-left: 30%;
+}
+
