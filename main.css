@@ -1,48 +1,63 @@
-
-
 .navbar  {
     background-image: url(imges/image\ 1.png);
     background-size: cover; /* L'image couvrira complètement le conteneur */
-    background-position: center center; /* Centre l'image horizontalement et verticalement */
+    background-position:center; /* Centre l'image horizontalement et verticalement */
     height: 100vh; /* Hauteur équivalente à 100% de la hauteur de la fenêtre */
     width: 100%;
-    
+    margin-bottom: -19PX;
 }
 .about {
     background-image: url(imges/image2.png);
     background-size: cover; /* L'image couvrira complètement le conteneur *//* Facultatif : permet de garder l'image fixe lors du défilement */
     background-position: center center; /* Centre l'image horizontalement et verticalement */
-    height: 70vh; /* Hauteur équivalente à 100% de la hauteur de la fenêtre */
+    height: 80vh; /* Hauteur équivalente à 100% de la hauteur de la fenêtre */
     width: 100%;
-
+     margin-bottom: -27PX;
 }
 .time {
     background-image: url(imges/image4.png);
     background-size: cover; /* L'image couvrira complètement le conteneur */
     background-position: center center; /* Centre l'image horizontalement et verticalement */
-    height: 28rem; /* Hauteur équivalente à 100% de la hauteur de la fenêtre */
+    height: 30rem; /* Hauteur équivalente à 100% de la hauteur de la fenêtre */
     width: 100%;
-
+    margin-bottom:  -5REM;
+   
 }
 
 .navbar-menu  {
     background-image: url(imges/coffee-beans-dark-background.jpg);
     background-size: cover; /* L'image couvrira complètement le conteneur */
-    background-attachment: fixed; /* Facultatif : permet de garder l'image fixe lors du défilement */
     background-position: center center; /* Centre l'image horizontalement et verticalement */
     height: 150vh; /* Hauteur équivalente à 100% de la hauteur de la fenêtre */
     width: 100%;
-    
+     margin-bottom: -25PX;
+}
+
+.navbar-contact {
+    background-image: url(imges/coffee-beans-dark-background.jpg);
+    background-size: cover; /* L'image couvrira complètement le conteneur */
+    background-position: center center; /* Centre l'image horizontalement et verticalement */
+    height: 102vh; /* Hauteur équivalente à 100% de la hauteur de la fenêtre */
+    width: 100%;
+     margin-bottom: -25PX;
 }
 .client{
     background-image: url(imges/sousmenu.png);
     background-size: cover; /* L'image couvrira complètement le conteneur */
-    background-attachment: fixed; /* Facultatif : permet de garder l'image fixe lors du défilement */
     background-position: center center; /* Centre l'image horizontalement et verticalement */
-    height: 100vh; /* Hauteur équivalente à 100% de la hauteur de la fenêtre */
+    height: 80vh; /* Hauteur équivalente à 100% de la hauteur de la fenêtre */
     width: 100%;
-
+   
 }
+.navbar-local{
+    background-image: url(imges/image\ 9.png);
+    background-size: cover; /* L'image couvrira complètement le conteneur */
+    background-position: center center; /* Centre l'image horizontalement et verticalement */
+    height: 107vh; /* Hauteur équivalente à 100% de la hauteur de la fenêtre */
+    width: 100%;
+    
+}
+
 /* Styles de base pour la navbar horizontale */
 .nav{
     position: relative;
@@ -72,8 +87,6 @@
     margin: 0;
     display: flex;
     left: 290px;
-  
-    
    
 }
 
@@ -88,19 +101,24 @@
     color: #ffffff;
     text-decoration: none;
     transition: color 0.3s ease;
-    
 }
 
 /* Style pour les liens au survol de la souris */
 
 .navbar  a:hover {
-    color: #b35f00;
+    color: #f49e3b;
 }
 .navbar-menu  a:hover {
-    color: #b35f00;
+    color: #f49e3b;
+}
+.navbar-local  a:hover {
+    color: #f49e3b;
+}
+.navbar-contact  a:hover {
+    color: #f49e3b;
 }
 .script h1 {
-  padding-top: 10%;  
+padding-top: 10%;  
 padding-left: 90PX;
 font-size: 2rem;
 color: #ffffff;
@@ -156,14 +174,16 @@ color: #ffffff;
     font-family: 'Irish Grover';
 }
 footer {
-    margin-top: -5%;
+    
     height: 50px;
-    background-color: #61330e;
+    background-color: #1D1714;
+    margin-top: 70px;
     
 }
 footer p{
     text-align: center;
     padding-top: 20px;
+    color: #ffffff;
 }
 
 .our-menu{
@@ -181,23 +201,23 @@ margin-top: 5%;
 
 .grid-container {
     position: absolute;
-    left: 10%;
-    top: 40%;
+    left: 15%;
+    top: 45%;
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Trois colonnes égales */
-    grid-template-rows: 1fr 1fr; /* Deux lignes égales */
-    /* grid-gap: ; Marge entre les éléments de la grille */
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr; 
+    
 }
 
 .grid-item {
-    width: 220px;
+    width: 200px;
     height: 200px;
-    background-color: #a1bfd2; /* Couleur de fond */
+    background-color: #D9D9D9 ; /* Couleur de fond */
     color: #000000; /* Couleur du texte */
     text-align: center; /* Centrage du texte */
 }
 .grid-item img{
-    width: 220px;
+    width: 200px;
     height: 200px;
     
 }
@@ -208,8 +228,10 @@ margin-top: 5%;
     font-weight: bold;
 }
 .description .name{
-    position: relative;
-    left: -30%;
+    
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-right: 110px;
+    color: #6B554A;
 
 }
 .grid-item .description .dsc{
@@ -222,47 +244,271 @@ margin-top: 5%;
 .grid-item .description button{
     width: 70PX;
     height: 30px;
-    font-size: 5PX;
+    font-size: 8PX;
+    font-weight: bold;
     border-radius: 20px;
-    background-color: #c77527;
-    margin-left:-130px   ;
+    background-color: #B88857;
+    margin-right:110px   ;
+    color: #000000;
     
     
 }
 .grid-item .description  button:hover {
-    background-color: aqua;
+    background-color: #08090D;
+    color: #ffffff;
 }
 
+.second-grid-container {
+        position: absolute;
+        left: 130%; /* Ajustez la position selon vos besoins */ 
+        display: grid;
+        grid-template-columns: 1fr 1fr; /* Trois colonnes égales */
+        grid-template-rows: 1fr 1fr; /* Deux lignes égales */
+        /* grid-gap: ; Marge entre les éléments de la grille */
+    }
+    
+    .second-grid-container .grid-item {
+        width: 200px;
+        height: 200px;
+        background-color: #6B554A; /* Couleur de fond */
+        color: #ffffff; /* Couleur du texte */
+        text-align: center; /* Centrage du texte */
+    }
+    
+    .second-grid-container .grid-item img {
+        width: 200px;
+        height: 200px;
+    }
+    
+    .second-grid-container .grid-item .description .price {
+        font-weight: bold;
+    }
+    
+    .second-grid-container .description .name {
+        color: white;
+        margin-right: 110px;
+    }
+    
+    .second-grid-container .grid-item .description .dsc {
+        font-size: 12px;
+        padding-left: 13px;
+        text-align: left;
+        color: #ffffff;
+    }
+    
+    .second-grid-container .grid-item .description button {
+        width: 70px;
+        height: 30px;
+        font-size: 8PX;
+        font-weight: bold;
+        border-radius: 20px;
+        background-color: #08090D;
+        margin-right: 110px;
+        color: #ffffff;
+        
+    }
+    
+    .second-grid-container .grid-item .description button:hover {
+        background-color: #B88857;
+        color: #000000;
+        
+    }
+    
+   
+
+
 /* ----------------------------- */
-.client h1{
+.client h1 {
     color: #ffffff;
+    font-size: 30px; /* "px" en minuscules */
     text-align: center;
-    padding-top: 10%;
+    padding-top: 5%;
 }
-.cli1{
-background-color: #61330e ;
-opacity: 0.7;
-width: 25%;
-height: 40%;
-margin-left: 12%;
-margin-top: 10%;
-border-radius: 30px;
+
+.mere .cli {
+    background-color: #61330e;
+    opacity: 0.6;
+    width: 25%;
+    height: 11%;
+    margin-left: 60PX; /* "rem" en minuscules */
+    margin-top: 5rem; /* "rem" en minuscules */
+    border-radius: 10px;
 }
-.cli1 h2{
+
+.mere .cli h2 {
     color: #ffffff;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding-left: 100PX;
+    padding-left: 55px;
     padding-top: 10px;
 }
-.cli1 p{
+
+.mere .cli p {
     padding-left: 20%;
     color: #ffffff;
     font-size: 100%;
 }
 
-.cli1 .green{
-    color: green;
-    padding-top: 20PX;
+.mere .cli .green {
+    color: rgb(4, 255, 4);
+    padding-top: 44px;
     padding-left: 30%;
 }
 
+.mere .cli {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+}
+
+.local .info {
+    margin-left: 200px;
+
+}
+
+.info h1 {
+    color: #ffffff;
+    font-family: 'lalezar';
+    font-size: 200%;
+    padding-top: 80px;
+}
+.info img{
+    width: 30px;
+}
+.info p{
+    color: #ffffff;
+    position: relative;
+    bottom: 3rem;
+    left: 35px;
+}
+#map iframe{
+    width: 30rem;
+    height: 25rem;
+    margin-left: 40rem;
+    margin-top: -15REM;
+}
+
+.contact{
+margin-left: 200px;
+
+}
+.contact h1{
+    color: #ffffff;
+    font-size: 200%;
+    padding-top: 80px;
+}
+.contact p{
+      color: #ffffff;
+      font-family: 'im fell frensh canon';
+      font-size: 30px;
+}
+
+
+
+/* Styles for the form container */
+.form {
+    position: absolute;
+    left: 40rem;
+    top:6rem;
+    max-width: 300px;
+    height: 350px;
+    
+    padding: 40px;
+    background-color: rgba(151, 81, 25, 0.3);
+    border-radius: 5px;
+}
+
+/* Styles for the form heading */
+.form h2 {
+    text-align: center;
+    color: #ffffff;
+}
+
+/* Styles for the form input fields */
+
+.form input[type="text"],
+.form input[type="email"],
+.form input[type="number"],
+.form input[type="password"],
+.form select {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Style for the submit button */
+.form input[type="submit"] {
+    position: relative;
+    background-color: #B88857;
+    color: #fff;
+    border: none;
+    margin-left: 100px;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 30%;
+}
+
+/* Style for the submit button on hover */
+.form input[type="submit"]:hover {
+    background-color: #D3CECE;
+    color: #000000;
+}
+
+/* Style de la section .big-footer */
+.big-footer {
+    background:linear-gradient(to right bottom, 
+    rgba(31, 33, 34, 0.8),
+    rgba(40, 40, 40, 0.8)), url(imges/image\ 9.png);
+    background-size: cover;
+    background-position: center center;
+    height: 70vh;
+    width: 100%;
+    color: #fff; /* Couleur du texte dans la section */
+    text-align: center;
+     
+    
+}
+
+/* Style de la div .footer à l'intérieur de .big-footer */
+.big-footer .footer {
+    display: flex;
+    align-items: center;
+    padding-top: 110px;
+    margin-left: 330px;
+    
+ 
+}
+
+/* Style des éléments li à l'intérieur de la div .footer */
+.big-footer .footer li {
+    margin: 20px;
+    color: #ffffff; /* Couleur du texte en blanc */
+    list-style: none;
+}
+
+/* Style des liens dans les éléments li */
+.big-footer .footer li a {
+    color: #fff; /* Couleur du texte en blanc */
+    text-decoration: none; /* Supprime le soulignement des liens */
+    
+}
+
+/* Style de l'image du logo dans la div .footer-logo */
+.big-footer .footer-logo img {
+    width: 100px;
+}
+
+/* Style du footer à l'extérieur de la div .footer */
+.big-footer footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+ .f{
+    margin-top: 5%;
+   margin-left: 5%;
+
+}
