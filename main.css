@@ -206,6 +206,149 @@ font-size: 20px;
     font-size: 150%;
     font-family: 'Irish Grover';
 }
+.menu-section{
+    position: relative;
+    background: url(imges/image\ 6.png);
+    background-size: cover;
+      width: 100%;
+      height: auto;
+      overflow-x: hidden;
+      overflow-y: hidden;
+     
+  }
+  .menu-section h1{
+    display: flex;
+      justify-content: center;
+      color: #903711;
+  font-family: Poppins;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  }
+  .menu-section h3{
+    text-decoration: underline;
+    margin-left: 100px;
+    padding: 30px;
+    color: #9E5A3D;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  }
+  .menu{
+    
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+  }
+  .menu-card{
+    width: 260px;
+    height: 30rem;
+    border-radius: 20px;
+  background: rgba(115, 74, 57, 0.88);
+  box-shadow: 0px 2px 20px 4px rgba(0, 0, 0, 0.25);
+  color: white;
+  margin: 25px;
+  
+  }
+  .menu-card img{
+    display: flex;
+    justify-content: center;
+    margin-left: 15px;
+    height: 220px;
+    width: 230px;
+    background-size: cover;
+    margin-top: 30px;
+    border-radius: 15px;
+  }
+  
+  .menu-card h4{
+    margin: 10px;
+    color: #FFF;
+  font-family: Poppins;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  }
+  .menu-card p{
+    margin: 10px;
+    font-size: 14px;
+  }
+  .price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    font-weight: 900;
+  }
+  
+  .customers{
+    position: relative;
+    background: url(imges/top-view-bowls-with-coffee-beans-powder\ 1.png);
+    background-size: cover;
+      width: 100%;
+      height: 70vh;
+      overflow-x: hidden;
+      overflow-y: hidden;
+  }
+  .customers h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin: 20px;
+  }
+  .card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  }
+  .customers-card{
+    border-radius: 5px;
+    margin: 50px;
+  background: rgba(88, 49, 21, 0.57);
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.25);
+  width: fit-content;
+  height: fit-content;
+  padding: 30px;
+  text-align: center;
+  }
+  .customers-card h4{
+    color: #fff;
+    text-align: center;
+    margin: 20px;
+  }
+  .customers-card p{
+    color: #D3CECE;
+  font-family: Lexend;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  margin: 20px;
+  }
+  .customers-card span{
+    color: #54DD8B;
+  text-align: center;
+  font-family: Lexend;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 24px */
+  margin: 10px;
+  }
+  .map{
+    background: #D3CECE;
+    height: 70vh;
+    width: 100%;
+  }
+  .map img{
+    border: 6px solid #795341;
+    margin: 35px 12px ;
+    width: 75rem;
+  }
+
 footer {
     height: 50px;
     background-color: #1D1714;
@@ -261,14 +404,14 @@ margin-top: 5%;
 }
 .grid-item .description .price{
     position: relative;
-    top: -3%;
+    top: -22px;
     left: 35%;
     font-weight: bold;
 }
 .description .name{
-    
     font-family:Georgia, 'Times New Roman', Times, serif;
-    margin-right: 110px;
+    margin-left: -112px;
+    margin-top: -20px;
     color: #6B554A;
 
 }
@@ -324,7 +467,7 @@ margin-top: 5%;
     
     .second-grid-container .description .name {
         color: white;
-        margin-right: 110px;
+        margin-left: -90px;
     }
     
     .second-grid-container .grid-item .description .dsc {
@@ -542,10 +685,8 @@ margin-left: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
  .f{
     margin-top: 5%;
    margin-left: 5%;
-
 }
