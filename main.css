@@ -238,7 +238,6 @@ font-size: 20px;
   line-height: normal;
   }
   .menu{
-    
     display: grid;
     grid-template-columns: repeat(4,1fr);
   }
@@ -690,3 +689,6 @@ margin-left: 200px;
     margin-top: 5%;
    margin-left: 5%;
 }
+
+
+  
