@@ -1,24 +1,24 @@
 .navbar  {
     background-image: url(imges/image\ 1.png);
-    background-size: cover; /* L'image couvrira complètement le conteneur */
-    background-position:center; /* Centre l'image horizontalement et verticalement */
-    height: 100vh; /* Hauteur équivalente à 100% de la hauteur de la fenêtre */
+    background-size: cover; 
+    background-position:center; 
+    height: 100vh; 
     width: 100%;
     margin-bottom: -25PX;
 }
 .about {
     background-image: url(imges/image2.png);
-    background-size: cover; /* L'image couvrira complètement le conteneur *//* Facultatif : permet de garder l'image fixe lors du défilement */
-    background-position: center center; /* Centre l'image horizontalement et verticalement */
-    height: 80vh; /* Hauteur équivalente à 100% de la hauteur de la fenêtre */
+    background-size: cover; 
+    background-position: center center; 
+    height: 80vh; 
     width: 100%;
      margin-bottom: -27PX;
 }
 .time {
     background-image: url(imges/image4.png);
-    background-size: cover; /* L'image couvrira complètement le conteneur */
-    background-position: center center; /* Centre l'image horizontalement et verticalement */
-    height: 30rem; /* Hauteur équivalente à 100% de la hauteur de la fenêtre */
+    background-size: cover; 
+    background-position: center center; 
+    height: 30rem; 
     width: 100%;
     margin-bottom:  -5REM;
    
@@ -26,39 +26,38 @@
 
 .navbar-menu  {
     background-image: url(imges/coffee-beans-dark-background.jpg);
-    background-size: cover; /* L'image couvrira complètement le conteneur */
-    background-position: center center; /* Centre l'image horizontalement et verticalement */
-    height: 150vh; /* Hauteur équivalente à 100% de la hauteur de la fenêtre */
+    background-size: cover; 
+    background-position: center center; 
+    height: 150vh; 
     width: 100%;
      margin-bottom: -25PX;
 }
 
 .navbar-contact {
     background-image: url(imges/coffee-beans-dark-background.jpg);
-    background-size: cover; /* L'image couvrira complètement le conteneur */
-    background-position: center center; /* Centre l'image horizontalement et verticalement */
-    height: 102vh; /* Hauteur équivalente à 100% de la hauteur de la fenêtre */
+    background-size: cover; 
+    background-position: center center; 
+    height: 102vh; 
     width: 100%;
      margin-bottom: -25PX;
 }
 .client{
     background-image: url(imges/sousmenu.png);
-    background-size: cover; /* L'image couvrira complètement le conteneur */
-    background-position: center center; /* Centre l'image horizontalement et verticalement */
-    height: 80vh; /* Hauteur équivalente à 100% de la hauteur de la fenêtre */
+    background-size: cover; 
+    background-position: center center; 
+    height: 80vh; 
     width: 100%;
    
 }
 .navbar-local{
     background-image: url(imges/image\ 9.png);
-    background-size: cover; /* L'image couvrira complètement le conteneur */
-    background-position: center center; /* Centre l'image horizontalement et verticalement */
-    height: 107vh; /* Hauteur équivalente à 100% de la hauteur de la fenêtre */
+    background-size: cover; 
+    background-position: center center; 
+    height: 107vh; 
     width: 100%;
     
 }
 
-/* Styles de base pour la navbar horizontale */
 .nav{
     position: relative;
     display: flex;
@@ -70,7 +69,7 @@
     
 }
 
-/* Style pour le texte "Landing" */
+
 .nav img{
     position: relative;
     margin: 0;
@@ -80,7 +79,7 @@
     
 }
 
-/* Style pour la liste non ordonnée (ul) */
+
  .nav ul {
     position: relative;
     list-style-type: none;
@@ -90,20 +89,19 @@
    
 }
 
-/* Style pour les éléments de liste (li) */
+
 .nav li {
     margin: 0 25px ;
     
 }
 
-/* Style pour les liens (a) dans la navbar */
+
 .nav a {
     color: #ffffff;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
-/* Style pour les liens au survol de la souris */
 
 .navbar  a:hover {
     color: #f49e3b;
@@ -210,32 +208,26 @@ font-size: 20px;
     position: relative;
     background: url(imges/image\ 6.png);
     background-size: cover;
-      width: 100%;
-      height: auto;
-      overflow-x: hidden;
-      overflow-y: hidden;
+    width: 100%;
+    height: auto;
      
   }
   .menu-section h1{
     display: flex;
-      justify-content: center;
-      color: #903711;
-  font-family: Poppins;
-  font-size: 50px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
+    justify-content: center;
+    color: #903711;
+    font-family: Poppins;
+    font-size: 50px;
+    font-weight: 400;
   }
   .menu-section h3{
     text-decoration: underline;
     margin-left: 100px;
     padding: 30px;
     color: #9E5A3D;
-  font-family: Poppins;
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
   }
   .menu{
     display: grid;
@@ -245,10 +237,10 @@ font-size: 20px;
     width: 260px;
     height: 30rem;
     border-radius: 20px;
-  background: rgba(115, 74, 57, 0.88);
-  box-shadow: 0px 2px 20px 4px rgba(0, 0, 0, 0.25);
-  color: white;
-  margin: 25px;
+    background: rgba(115, 74, 57, 0.88);
+    box-shadow: 0px 2px 20px 4px rgba(0, 0, 0, 0.25);
+    color: white;
+    margin: 25px;
   
   }
   .menu-card img{
@@ -269,7 +261,6 @@ font-size: 20px;
   font-size: 25px;
   font-style: normal;
   font-weight: 700;
-  line-height: normal;
   }
   .menu-card p{
     margin: 10px;
@@ -328,13 +319,12 @@ font-size: 20px;
   margin: 20px;
   }
   .customers-card span{
-    color: #54DD8B;
+  color: #54DD8B;
   text-align: center;
   font-family: Lexend;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
-  line-height: 150%; /* 24px */
   margin: 10px;
   }
   .map{
@@ -392,9 +382,9 @@ margin-top: 5%;
 .grid-item {
     width: 200px;
     height: 200px;
-    background-color: #D9D9D9 ; /* Couleur de fond */
-    color: #000000; /* Couleur du texte */
-    text-align: center; /* Centrage du texte */
+    background-color: #D9D9D9 ; 
+    color: #000000; 
+    text-align: center; 
 }
 .grid-item img{
     width: 200px;
@@ -440,19 +430,19 @@ margin-top: 5%;
 
 .second-grid-container {
         position: absolute;
-        left: 130%; /* Ajustez la position selon vos besoins */ 
+        left: 130%; 
         display: grid;
-        grid-template-columns: 1fr 1fr; /* Trois colonnes égales */
-        grid-template-rows: 1fr 1fr; /* Deux lignes égales */
-        /* grid-gap: ; Marge entre les éléments de la grille */
+        grid-template-columns: 1fr 1fr; 
+        grid-template-rows: 1fr 1fr; 
+        
     }
     
     .second-grid-container .grid-item {
         width: 200px;
         height: 200px;
-        background-color: #6B554A; /* Couleur de fond */
-        color: #ffffff; /* Couleur du texte */
-        text-align: center; /* Centrage du texte */
+        background-color: #6B554A; 
+        color: #ffffff; 
+        text-align: center; 
     }
     
     .second-grid-container .grid-item img {
@@ -498,47 +488,6 @@ margin-top: 5%;
 
 
 /* ----------------------------- */
-.client h1 {
-    color: #ffffff;
-    font-size: 30px; /* "px" en minuscules */
-    text-align: center;
-    padding-top: 5%;
-}
-
-.mere .cli {
-    background-color: #61330e;
-    opacity: 0.6;
-    width: 25%;
-    height: 11%;
-    margin-left: 60PX; /* "rem" en minuscules */
-    margin-top: 5rem; /* "rem" en minuscules */
-    border-radius: 10px;
-}
-
-.mere .cli h2 {
-    color: #ffffff;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding-left: 55px;
-    padding-top: 10px;
-}
-
-.mere .cli p {
-    padding-left: 20%;
-    color: #ffffff;
-    font-size: 100%;
-}
-
-.mere .cli .green {
-    color: rgb(4, 255, 4);
-    padding-top: 44px;
-    padding-left: 30%;
-}
-
-.mere .cli {
-    display: inline-block;
-    vertical-align: top;
-    margin-right: 20px;
-}
 
 .local .info {
     margin-left: 200px;
@@ -583,7 +532,7 @@ margin-left: 200px;
 
 
 
-/* Styles for the form container */
+
 .form {
     position: absolute;
     left: 40rem;
@@ -596,13 +545,13 @@ margin-left: 200px;
     border-radius: 5px;
 }
 
-/* Styles for the form heading */
+
 .form h2 {
     text-align: center;
     color: #ffffff;
 }
 
-/* Styles for the form input fields */
+
 
 .form input[type="text"],
 .form input[type="email"],
@@ -616,7 +565,7 @@ margin-left: 200px;
     border-radius: 3px;
 }
 
-/* Style for the submit button */
+
 .form input[type="submit"] {
     position: relative;
     background-color: #B88857;
@@ -629,13 +578,13 @@ margin-left: 200px;
     width: 30%;
 }
 
-/* Style for the submit button on hover */
+
 .form input[type="submit"]:hover {
     background-color: #D3CECE;
     color: #000000;
 }
 
-/* Style de la section .big-footer */
+
 .big-footer {
     background:linear-gradient(to right bottom, 
     rgba(31, 33, 34, 0.8),
@@ -644,13 +593,13 @@ margin-left: 200px;
     background-position: center center;
     height: 70vh;
     width: 100%;
-    color: #fff; /* Couleur du texte dans la section */
+    color: #fff; 
     text-align: center;
      
     
 }
 
-/* Style de la div .footer à l'intérieur de .big-footer */
+
 .big-footer .footer {
     display: flex;
     align-items: center;
@@ -660,33 +609,27 @@ margin-left: 200px;
  
 }
 
-/* Style des éléments li à l'intérieur de la div .footer */
 .big-footer .footer li {
     margin: 20px;
-    color: #ffffff; /* Couleur du texte en blanc */
+    color: #ffffff;
     list-style: none;
 }
 
 
 
-/* Style des liens dans les éléments li */
+
 .big-footer .footer li a {
-    color: #fff; /* Couleur du texte en blanc */
-    text-decoration: none; /* Supprime le soulignement des liens */
+    color: #fff; 
+    text-decoration: none; 
     
 }
 
-/* Style de l'image du logo dans la div .footer-logo */
+
 .big-footer .footer-logo img {
     width: 100px;
 }
 
-/* Style du footer à l'extérieur de la div .footer */
-.big-footer footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
  .f{
     margin-top: 5%;
    margin-left: 5%;
